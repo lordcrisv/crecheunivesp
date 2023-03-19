@@ -1,0 +1,91 @@
+/* Definição de fontes */
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+}
+
+/* Estilo do body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+}
+
+/* Estilo do header */
+header {
+  background-color: #3f51b5;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* Estilo do link do header */
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+header ul li a:hover {
+  background-color: #fff;
+  color: #3f51b5;
+}
+
+/* Estilo do main */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilo do h2 */
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+/* Estilo do form */
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* Estilo dos inputs do form */
+form input[type=text], form input[type=email], form input[type=date], form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+form input[type=submit] {
+  background-color: #3f51b5;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+form input[type=submit]:hover {
+  background-color: #fff;
+  color: #3f51b5;
+}
+
+/* Estilo do footer */
+footer {
+  background-color: #ccc;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+}

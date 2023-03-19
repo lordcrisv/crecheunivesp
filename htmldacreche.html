@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Creche Escola</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Creche Escola</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Calendário</a></li>
+        <li><a href="#">Fale com Professores</a></li>
+        <li><a href="#">Registro de Informações</a></li>
+        <li><a href="#">Álbum de Fotos</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="calendario">
+      <h2>Calendário de Atividades</h2>
+      <ul>
+        <li>Atividade 1 - 10/04/2023</li>
+        <li>Atividade 2 - 15/04/2023</li>
+        <li>Atividade 3 - 22/04/2023</li>
+      </ul>
+    </section>
+    
+    <section id="fale-com-professores">
+      <h2>Fale com Professores</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+        
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem"></textarea>
+        
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    
+    <section id="registro-de-informacoes">
+      <h2>Registro de Informações</h2>
+      <form>
+        <label for="nome-aluno">Nome do Aluno:</label>
+        <input type="text" id="nome-aluno" name="nome-aluno">
+        
+        <label for="data-nascimento">Data de Nascimento:</label>
+        <input type="date" id="data-nascimento" name="data-nascimento">
+        
+        <label for="responsavel">Responsável:</label>
+        <input type="text" id="responsavel" name="responsavel">
+        
+        <button type="submit">Salvar</button>
+      </form>
+    </section>
+    
+    <section id="album-de-fotos">
+      <h2>Álbum de Fotos</h2>
+      <ul>
+        <li><img src="foto1.jpg" alt="Foto 1"></li>
+        <li><img src="foto2.jpg" alt="Foto 2"></li>
+        <li><img src="foto3.jpg" alt="Foto 3"></li>
+      </ul>
+    </section>
+  </main>
+  
+  <footer>
+    <p>Creche Escola - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
